@@ -8,7 +8,7 @@
     <div @click="clicked = true">
       <img
         :src="image.urls.small"
-        class="rounded-md"
+        class="rounded-md min-w-full min-w-full bg-gray-200 min-h-50 sm:min-h-100 lg:min-h-150 xl:min-h-200"
         :alt="image.alt_description"
       />
       <div

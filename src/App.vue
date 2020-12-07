@@ -10,7 +10,6 @@
 <script>
 import Landing from "./components/Landing";
 import Search from "./components/Search";
-import NotFound from "./components/NotFound";
 export default {
   data() {
     return {
@@ -21,7 +20,6 @@ export default {
   components: {
     Landing,
     Search,
-    NotFound,
   },
   methods: {
     search(word) {
